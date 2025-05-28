@@ -8,12 +8,12 @@ This project implements a simple 1Hz decimal (BCD) counter in VHDL on the ZedBoa
 - **Clock Input:** 100 MHz onboard oscillator
 - **Output:** LD0–LD3 display BCD values from 0 to 9
 - **Reset Pin:** SW5 (T18) — active-high synchronous reset
-- **Design Goal:** Demonstrate use of BCD counters, LED display, and enable-based timing logic without dividing the clock
+- **Design Goal**: Demonstrate use of BCD counters, LED display, and enable-based timing logic without dividing the clock
 
 ---
 
 🛠️ Tools Used
-- Vivado Design Suite (e.g., Vivado 2023.x)
+- Vivado Design Suite (e.g., Vivado 2024.2)
 - VHDL for hardware description
 - Optional: GHDL/GTKWave for simulation
 
