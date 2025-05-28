@@ -1,5 +1,5 @@
 🔢 1Hz BCD LED Counter on ZedBoard Zynq-7000
-This project implements a simple 1Hz decimal (BCD) counter in VHDL on the ZedBoard Zynq-7000. It uses a 100 MHz system clock to increment a counter from 0 to 9 in binary-coded decimal format and displays the result using 4 onboard LEDs (LD0–LD3). Like the previous project, this design uses an enable-based counter rather than a clock divider and is entirely implemented in the PL (Programmable Logic) of the ZedBoard.
+This project implements a simple 1Hz decimal (BCD) counter in VHDL on the ZedBoard Zynq-7000. It uses a 100 MHz system clock to increment a counter from 0 to 9 in binary-coded decimal format and displays the result using 4 onboard LEDs (LD0–LD3). This design uses an enable-based counter rather than a clock divider and is entirely implemented in the PL (Programmable Logic) of the ZedBoard.
 
 ---
 
@@ -7,7 +7,7 @@ This project implements a simple 1Hz decimal (BCD) counter in VHDL on the ZedBoa
 - **Top Module:** `bcd_counter_leds`
 - **Clock Input:** 100 MHz onboard oscillator
 - **Output:** LD0–LD3 display BCD values from 0 to 9
-- **Reset Pin:** SW5 (T18) — active-high synchronous reset
+- **Reset Pin:** SW0 (T22) — active-high synchronous reset
 - **Design Goal**: Demonstrate use of BCD counters, LED display, and enable-based timing logic without dividing the clock
 
 ---
