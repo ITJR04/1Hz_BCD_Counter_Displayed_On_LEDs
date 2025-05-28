@@ -26,7 +26,7 @@ The design uses a 100 MHz input clock to create a 1Hz enable signal using a coun
 - The counter increments once per second when the enable signal is asserted
 
 ➕ Reset Behavior
-- Pressing **SW5 (T18)** will:
+- Pressing **SW0 (T22)** will:
   - Reset the internal 1Hz enable counter
   - Reset the BCD counter to 0 (`0000`)
   - Turn OFF all LEDs temporarily
